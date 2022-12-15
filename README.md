@@ -7,14 +7,7 @@
 
 ### Create bundle
 ```
-npx react-native bundle \                                       
-    --platform android \
-    --dev false \
-    --entry-file index.js \
-    --reset-cache \
-    --bundle-output index.android.bundle \
-    --sourcemap-output index.android.bundle.map \
-    --minify false
+npx react-native bundle --platform android --dev false --entry-file index.js --reset-cache --bundle-output index.android.bundle --sourcemap-output index.android.bundle.map --minify false
 ```    
 
 ### Validate sourcemap
